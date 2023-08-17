@@ -29,26 +29,26 @@ const STATUS_MAP = {
 
 // Edit below line 
 
-status = selector(status)
-reserve = selector(reserve)
-checkout = selector(checkout)
-checkin = selector(checkin)
+status_1 = document.querySelector('#book1 .status')
+reserve_1 = document.querySelector('#book1 .reserve')
+checkout_1 = document.querySelector('#book1 .checkout')
+checkin_1 = document.querySelector('#book1 .checkin')
 
-status = selector(status)
-reserve = selector(reserve)
-checkout = selector(checkout)
-checkin = selector(checkin)
+status_2 = document.querySelector('#book2 .status')
+reserve_2 = document.querySelector('#book2 .reserve')
+checkout_2 = document.querySelector('#book2 .checkout')
+checkin_2 = document.querySelector('#book2 .checkin')
 
-status = selector(status)
-reserve = selector(reserve)
-checkout = selector(checkout)
-checkin = selector(checkin)
+status_3 = document.querySelector('#book3 .status')
+reserve_3 = document.querySelector('#book3 .reserve')
+checkout_3 = document.querySelector('#book3 .checkout')
+checkin_3 = document.querySelector('#book3 .checkin')
 
-checkin.0.color = none
-status.0.style.color = STATUS_MAP.status.color
-reserve.0 = STATUS_MAP.status.canReserver ? 'enabled' : 'disabled'
-checkout.0 = STATUS_MAP.status.canCheckout ? 'enabled' : 'disabled'
-checkin.0 = STATUS_MAP.status.canCheckIn ? 'enabled' : 'disabled'
+checkin_1.style.color = none
+status.style.color = STATUS_MAP.status.color
+reserve = STATUS_MAP.status.canReserver ? enabled : disabled
+checkout = STATUS_MAP.status.canCheckout ? enabled : disabled
+checkin = STATUS_MAP.status.canCheckIn ? enabled : disabled
 
 checkin.1.color = none
 status.1.style.color = STATUS_MAP.status.color
